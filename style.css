@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar{
+    width: 30px;
+    background: #FF0000;
+    background: #E4EFC0;
+    background: #401F8C;
+    background: linear-gradient(to right, #401F8C 0%, #7C8ACF 100%);
+
+
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: url(./uryu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 100%;
+    height: 200px;
+    background-color: orangered;
+    cursor: url(./ichigo.png), auto;
+}
